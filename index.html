@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>HoroNote</title>
+    
+    <!-- PWA用マニフェストとアイコンの設定 -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/marrongrace/Horonote-Earth/main/Horo_logo.png">
+    
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000000;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Streamlitアプリを全画面で埋め込む -->
+    <iframe src="https://horonote-earth.streamlit.app/?embed=true"></iframe>
+</body>
+</html>
