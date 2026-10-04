@@ -21,17 +21,8 @@
             overflow: hidden;
             background-color: #000000;
         }
-        .app-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            background-color: #000000;
-        }
         iframe {
             width: 100%;
-            max-width: 480px; /* タブレットやPCではスマホ幅（480px）に制限して中央に表示 */
             height: 100%;
             border: none;
             display: block;
@@ -40,9 +31,6 @@
     </style>
 </head>
 <body>
-    <!-- 中央寄せ用のコンテナで包む -->
-    <div class="app-container">
         <iframe src="https://horonote.streamlit.app/?embed=true#horo-note"></iframe>
-    </div>
 </body>
 </html>
