@@ -8,6 +8,8 @@
     <!-- PWA用マニフェストとアイコンの設定 -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/marrongrace/Horonote-Earth/main/Horo_logo.png">
     
     <style>
@@ -17,13 +19,14 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
-            background-color: #000000;
+            background-color: #000000; /* 背景を完全な黒に固定 */
         }
         iframe {
             width: 100%;
             height: 100%;
             border: none;
             display: block;
+            background-color: #000000;
         }
     </style>
 </head>
